@@ -1,0 +1,57 @@
+body {
+    margin: 5% 20%;
+    color: #282A2E;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:300;
+    font-size: 18px;
+}
+
+pre {
+    padding: 10px 15px 15px 15px;
+    font-family: 'Source Code Pro', sans-serif;
+    font-weight:400;
+    font-size: 13px;
+    width:626px;
+}
+
+div.header {
+    margin: 0px 0px 50px 0px;
+}
+
+div.header h1 {
+    margin: 0px;
+}
+
+div.header a {
+    font-size: 16px;
+    color: #373b41;
+    padding: 0px;
+    margin: 0px 15px 0px 0px;
+    text-decoration: none
+}
+
+div.header a:visited {
+    color: #373b41;
+}
+
+div.header a:hover {
+    color: #CC6666;
+}
+
+a {
+    text-decoration: none;
+    color: #81A2BE;
+}
+
+a:visited {
+    color: #81A2BE;
+}
+
+a:hover {
+    color: #CC6666;
+
+}
+
+span.inline {
+    padding: 0px 5px 0px 5px;
+}
