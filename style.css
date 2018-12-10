@@ -1,0 +1,156 @@
+body {
+    margin: 5% 5% 5% 5%;
+    color: #586e75;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+pre {
+    margin: 10px 0px 10px 0px;
+    font-size: 14px;
+}
+code {
+    padding: 2px 5px 2px 5px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+    display: inline-block;
+    background-color: #FDF6E3;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Serif Pro', serif;
+}
+h1 {
+    margin-top: 0px
+}
+h2, h3, h4, h5, h6 {
+    margin-bottom: 10px
+}
+ul {
+    list-style-type: none;
+}
+ul>ul {
+    list-style-type: disc;
+}
+ul>ul>ul {
+    list-style-type: circle;
+}
+li {
+    margin-top: 10px;
+}
+body>ul>li {
+    margin-top: 30px;
+}
+a {
+    color: #268bd2;
+    text-decoration: none;
+    outline: none !important;
+}
+a:visited {
+    color: #6c71c4;
+}
+a:hover {
+    color: #dc322f;
+}
+.block {
+    display: inline-block;
+    padding: 19px 13px;
+}
+
+/* prettyprint solarized light */
+.pln {
+  color: #bd3613;
+}
+
+.str {
+  color: #269186;
+}
+
+.kwd {
+  color: #859900;
+}
+
+.com {
+  color: #586175;
+  font-style: italic;
+}
+
+.typ {
+  color: #b58900;
+}
+
+.lit {
+  color: #2aa198;
+}
+
+.pun {
+  color: #839496;
+}
+
+.opn {
+  color: #839496;
+}
+
+.clo {
+  color: #839496;
+}
+
+.tag {
+  color: #268bd2;
+}
+
+.atn {
+  color: #586175;
+}
+
+.atv {
+  color: #2aa198;
+}
+
+.dec {
+  color: #268bd2; }
+
+.var {
+  color: #268bd2;
+}
+
+.fun {
+  color: #FF0000;
+}
+
+/* Put a border around prettyprinted code snippets. */
+pre.prettyprint {
+  background-color: #fdf6e3;
+  padding: 10px;
+  border: 1px solid #E1E1E8;
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  color: #4c666c;
+  margin: 0 0 0 40px;
+}
+
+ol.linenums li {
+  line-height: 18px;
+  padding-left: 12px;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro'), url(SourceSansPro-Regular.ttf.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Serif Pro'), local('SourceSerifPro'), url(SourceSerifPro-Regular.ttf.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Code Pro'), local('SourceCodePro'), url(SourceCodePro-Regular.ttf.woff2) format('woff2');
+}
